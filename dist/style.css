@@ -1,1 +1,64 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(45, 49, 66);
+  display: flex;
+  justify-content: center;
+}
 
+.smileys {
+  display: flex;
+  width: 100%;
+  height: 50vw;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.smileys .visage {
+  width: 7vw;
+  height: 4vw;
+  background-color: yellowgreen;
+  position: absolute;
+  right: 10%;
+}
+
+.smileys .tête {
+  background-color: aqua;
+  position: relative;
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  margin: 0 20px 0 20px;
+}
+
+#A {
+  background: radial-gradient(circle at 0% 50%, #ff492e, #ff7249);
+}
+
+#B {
+  background: radial-gradient(circle at 0% 50%, #fe622d, #fe9e47);
+}
+
+#C {
+  background: radial-gradient(circle at 0% 50%, #ffad48, #ffcc73);
+}
+
+#D {
+  background: radial-gradient(circle at 0% 50%, #ffc32a, #ffdd48);
+}
+
+#E {
+  background: radial-gradient(circle at 0% 50%, #fde535, #fff85d);
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
