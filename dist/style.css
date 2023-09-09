@@ -17,15 +17,31 @@ body {
   justify-content: center;
 }
 .smileys .visage {
-  width: 7vw;
+  width: 10vw;
   height: 4vw;
-  background-color: yellowgreen;
   position: absolute;
-  right: 10%;
+  right: 6%;
+  display: flex;
+  justify-content: center;
+}
+.smileys .visage .yeux {
+  width: 2vw;
+  height: 2vw;
+  background-color: rgb(45, 49, 66);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+.smileys .visage .yeux_deux {
+  right: 0;
+  width: 2vw;
+  height: 2vw;
+  background-color: rgb(45, 49, 66);
+  border-radius: 50%;
+  position: absolute;
 }
 
 .smileys .tête {
-  background-color: aqua;
   position: relative;
   width: 13vw;
   height: 13vw;
@@ -42,21 +58,104 @@ body {
 #A {
   background: radial-gradient(circle at 0% 50%, #ff492e, #ff7249);
 }
+#A .visage {
+  transform: translateY(140%);
+}
+#A #boubhe_A {
+  width: 2vw;
+  height: 1vw;
+  border: 1vw solid rgb(45, 49, 66);
+  position: absolute;
+  border-bottom: transparent;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  bottom: 30%;
+}
+#A #sourcils {
+  width: 3vw;
+  height: 1vw;
+  position: absolute;
+  background-color: rgb(45, 49, 66);
+  top: -30%;
+  transform: rotateZ(15deg);
+  left: -3%;
+}
+#A #sourcils_deux {
+  width: 3vw;
+  height: 1vw;
+  position: absolute;
+  background-color: rgb(45, 49, 66);
+  top: -30%;
+  transform: rotateZ(345deg);
+  right: -3%;
+}
 
 #B {
   background: radial-gradient(circle at 0% 50%, #fe622d, #fe9e47);
+}
+#B .visage {
+  transform: translateY(120%);
+}
+#B .visage #boubhe_B {
+  width: 2vw;
+  height: 1vw;
+  border: 1vw solid rgb(45, 49, 66);
+  position: absolute;
+  border-bottom: transparent;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  bottom: 30%;
 }
 
 #C {
   background: radial-gradient(circle at 0% 50%, #ffad48, #ffcc73);
 }
+#C .visage {
+  transform: translateY(100%);
+}
+#C .visage #boubhe_C {
+  width: 4vw;
+  height: 1vw;
+  background-color: rgb(45, 49, 66);
+  position: absolute;
+  bottom: 30%;
+}
 
 #D {
   background: radial-gradient(circle at 0% 50%, #ffc32a, #ffdd48);
 }
+#D .visage {
+  transform: translateY(80%);
+}
+#D .visage #boubhe_D {
+  width: 2vw;
+  height: 1vw;
+  border: 1vw solid rgb(45, 49, 66);
+  position: absolute;
+  border-bottom: transparent;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  bottom: 10%;
+  transform: rotateZ(180deg);
+}
 
 #E {
   background: radial-gradient(circle at 0% 50%, #fde535, #fff85d);
+}
+#E .visage {
+  transform: translateY(60%);
+}
+#E .visage #boubhe_E {
+  width: 2vw;
+  height: 1vw;
+  border: 1vw solid rgb(45, 49, 66);
+  background-color: rgb(45, 49, 66);
+  position: absolute;
+  border-bottom: transparent;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  bottom: 10%;
+  transform: rotateZ(180deg);
 }
 
 
